@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #E41749;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #E41749;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #C9485B;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted pink 6px;
+  border-bottom-style: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: pink;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: #FCEEF5;
+}
+
+.top-container {
+  background-color: #FCEEF5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  padding: 50px 0 20px;
+  background-color: #E41749;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.top-hearts {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-hearts {
+  position: absolute;
+  left: 300px;
+  top: 300px;
+}
+
+.balloon {
+  margin: auto;
+  padding: 100px;
+}
+
+.copy-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.design-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.office-hours {
+  font-weight: bold;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  padding: 20px 0;
+  color: #FCEEF5;
+  font-size: 0.75rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.BUTTON_TEG {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 30px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+  padding: 10px;
+  background-color: #E41749;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.BUTTON_TEG:hover {
+  background: #FFC0CB;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 30px;
+  text-decoration: none;
+}
